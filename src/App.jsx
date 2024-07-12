@@ -27,6 +27,7 @@ const App = () => {
         </section>
 
         <section id='experience' className='py-8'>
+        <h1 className='text-xl font-semibold text-custom-text-1 px-4 py-2 md:p-1 block md:hidden'>Experience</h1>
          {experienceData.map((exp, index) => (
            <Experience
             key={index}
@@ -47,6 +48,7 @@ const App = () => {
         </div>
 
         <section id='projects' className='py-8'>
+        <h1 className='text-xl font-semibold text-custom-text-1  px-4 py-2 md:p-1 block md:hidden'>Projects</h1>
          {projectData.map((prj, index) => (
            <Project
             key={index}

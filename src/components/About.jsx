@@ -3,6 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <section id='about'>
+        <h1 className='text-xl font-semibold text-custom-text-1 px-4 py-2 md:p-1 block md:hidden'>About</h1>
         <p className='text-custom-text-2 p-4 md:p-1 text-base tracking-wide leading-relaxed'>
         I'm a skilled software developer with a strong foundation in Computer Science Engineering. My expertise includes web development, backend systems, and database management. I've built robust applications using <span className='text-custom-text-3'>React.js</span> for dynamic front-ends, <span className='text-custom-text-3'>Node.js</span> for scalable backends, <span className='text-custom-text-3'>PostgreSQL</span> for efficient data handling, and <span className='text-custom-text-3'>Django</span> for powerful backend solutions. I also use <span className='text-custom-text-3'>Tailwind CSS</span> for streamlined UI development.
 

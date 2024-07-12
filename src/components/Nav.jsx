@@ -42,14 +42,14 @@ export default function Nav() {
 
   return (
     <div className='p-4 h-full md:h-screen md:p-8 bg-custom-blue'>
-      <div className='mt-6 pl-0 md:mt-16 pl-8 md:pl-24 '>
+      <div className='mt-6 md:mt-16 pl-0 md:pl-24 '>
       <h1 className='text-3xl sm:text-4xl font-bold text-custom-text-1 px-4 py-2'>Shenile A</h1>
       <p className='text-lg sm:text-xl text-custom-text-1 px-4 py-2'>Software Developer</p>
-      <p className='text-custom-text-2 text-base sm:max-w-lg p-4'>
+      <p className='text-custom-text-2 text-base sm:max-w-lg p-4 pr-0 md:p-4'>
         I develop user-friendly websites and software using React, Node.js, Express, PostgreSQL, and Django for robust backend solutions.
       </p>
       <div className='pt-4 pl-2 md:pl-0 sm:pt-8'>
-        <ul className='flex flex-col'>
+        <ul className='flex flex-col md:block hidden'>
           {navItems.map((item) => (
             <li key={item.id} className='relative mb-2'>
               <a
