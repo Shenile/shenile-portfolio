@@ -60,12 +60,15 @@ const App = () => {
         </section>
         
         <section id="contact" className="py-8">
-         <h2 className="text-lg font-semibold text-custom-text-3 mb-4">Contact Information</h2>
-         <p className="text-base text-custom-text-2 leading-relaxed">
-         Feel free to reach out via <br />
-         Email: <a href="mailto:sshenile07@gmail.com" className="text-custom-text-3 hover:underline">sshenile07@gmail.com</a> / Mobile: <a href="tel:+919626813831" className="text-custom-text-3 hover:underline">+91 9626813831</a> <br />
-         Connect with me on <a href="https://www.linkedin.com/in/shenile-a-86252b268/" target="_blank" rel="noopener noreferrer" className="text-custom-text-3 hover:underline">LinkedIn</a>.
-         </p>
+          <div className='p-4'>
+          <h2 className="text-lg font-semibold text-custom-text-3 mb-4">Contact Information</h2>
+          <p className="text-base text-custom-text-2 leading-relaxed">
+          Feel free to reach out via <br />
+          Email: <a href="mailto:sshenile07@gmail.com" className="text-custom-text-3 hover:underline">sshenile07@gmail.com</a> <br /> Mobile: <a href="tel:+919626813831" className="text-custom-text-3 hover:underline">+91 9626813831</a> <br />
+          Connect with me on <a href="https://www.linkedin.com/in/shenile-a-86252b268/" target="_blank" rel="noopener noreferrer" className="text-custom-text-3 hover:underline">LinkedIn</a>.
+          </p>
+          </div>
+         
         </section>
 
 

@@ -18,7 +18,7 @@ export default function SocialLinks() {
   };
 
   return (
-    <div className=" my-8 flex space-x-4">
+    <div className="w-3/4 mx-2 md:w-auto my-8 flex space-x-4">
       {Object.keys(socialLinks).map((key) => (
         <a
           key={key}
